@@ -13,7 +13,8 @@ export default function Hero() {
         backgroundSize: '48px 48px', opacity: 0.25, pointerEvents: 'none',
       }} />
 
-      <div style={{ position: 'relative', maxWidth: '720px', margin: '0 auto', width: '100%' }}>
+      <div style={{ position: 'relative', maxWidth: '1200px', margin: '0 auto', width: '100%', display: 'grid', gridTemplateColumns: '1.1fr 0.9fr', alignItems: 'center', gap: '2.5rem' }}>
+        <div>
         <div style={{
           display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
           padding: '0.3rem 0.75rem', border: '1px solid var(--border)',
@@ -67,6 +68,26 @@ export default function Hero() {
               <div style={{ fontSize: '0.75rem', color: 'var(--muted)', marginTop: '0.1rem' }}>{l}</div>
             </div>
           ))}
+        </div>
+        </div>
+
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <img
+            src="/my-profile.jpg"
+            alt="Niwahereza Trust"
+            onError={(e) => {
+              e.currentTarget.src = '/profile.jpg';
+            }}
+            style={{
+              width: '100%',
+              maxWidth: '420px',
+              aspectRatio: '1 / 1',
+              borderRadius: '50%',
+              border: '2px solid var(--accent)',
+              boxShadow: '0 20px 60px rgba(0,0,0,0.35)',
+              objectFit: 'cover',
+            }}
+          />
         </div>
       </div>
     </section>

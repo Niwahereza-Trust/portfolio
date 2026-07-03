@@ -3,7 +3,7 @@ import { Mail, Phone, Link, GitBranch, MapPin } from 'lucide-react'
 const contacts = [
   { label: 'Email', value: 'niwaherezatrust6@gmail.com', href: 'mailto:niwaherezatrust6@gmail.com', icon: Mail },
   { label: 'Phone', value: '+256 771 218 171', href: 'tel:+256771218171', icon: Phone },
- { label: 'LinkedIn', value: 'linkedin.com/in/niwahereza-trust', href: 'https://linkedin.com/in/niwahereza-trust', icon: Link },
+ { label: 'LinkedIn', value: 'linkedin.com/in/niwahereza-trust', href: 'www.linkedin.com/in/niwahereza-trust-05b408405', icon: Link },
   { label: 'GitHub', value: 'github.com/Niwahereza-Trust', href: 'https://github.com/Niwahereza-Trust', icon: GitBranch},
   { label: 'Location', value: 'Kampala, Uganda', href: '#', icon: MapPin },
 ]
