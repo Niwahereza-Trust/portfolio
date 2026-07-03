@@ -10,7 +10,7 @@ export default function About() {
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
         <p style={{ color: 'var(--muted)', lineHeight: 1.8, fontSize: '0.92rem' }}>
-          I'm a Junior Full Stack Developer currently completing the Software Development Apprenticeship at <strong style={{ color: 'var(--text)' }}>Refactory Academy</strong> in Kampala. I build web applications using React.js, Node.js, Express.js, and PostgreSQL.
+          I'm a Junior Full Stack Developer that completed a certificate of Software Development Apprenticeship at <strong style={{ color: 'var(--text)' }}>Refactory Academy</strong> in Kampala. I build web applications using React.js, Node.js, Express.js, and PostgreSQL.
         </p>
         <p style={{ color: 'var(--muted)', lineHeight: 1.8, fontSize: '0.92rem' }}>
           I'm passionate about backend systems, scalable APIs, and solving real problems through code. I work well in team environments using Git/GitHub and Agile/Scrum workflows.
